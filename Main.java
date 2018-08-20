@@ -7,7 +7,7 @@ public class Main
 	static HashMap<String, String> loginInfo = new HashMap<>();
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
-		loginInfo.put("matthe","lambo");
+		loginInfo.put("matthe","speaker");
 		loginInfo.put("kelvin","ferarri");
 		loginInfo.put("bob", "mercedes");
 		System.out.println("USERNAME:");

@@ -56,7 +56,7 @@ public class Shopping {
 			int input = sc.nextInt();
 			add(input, deskDouble, deskInt);
 				
-			else if(input == 2) {						
+			else if(input == 2) {
 				doubles.add(whiteBoardDouble);
 				items.add("whiteBoard");
 				System.out.println("How many(note:there is only 2 item in stock for this)?");

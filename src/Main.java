@@ -1,31 +1,17 @@
-import java.util.HashMap;
-import java.util.Scanner;
-
-public class Main 
+public class Main
 {
-
-	static HashMap<String, String> loginInfo = new HashMap<>();
-	public static void main(String[] args) {
-		Scanner sc = new Scanner(System.in);
-		loginInfo.put("matthe","speaker");
-		loginInfo.put("kelvin","ferarri");
-		loginInfo.put("bob", "mercedes");
-		System.out.println("USERNAME:");
-		String username = sc.nextLine();
-		System.out.println("Password:");
-		String password = sc.nextLine();
-		checkLogin(username, password);
-	}
-	
-	private static void checkLogin(String username, String password) {
-		if(loginInfo.containsKey(username)) {
-			if(loginInfo.get(username).equals(password)) {
-				System.out.println("Successfully logged in");
-			} else {
-				System.out.println("Invalid Password");
-			}
-		} else {
-			System.out.println("Invalid UserName");
-		}
+	public static void main(String args[]) {
+		Library library = new Library();
+		Book legends = new Book("legends", "contents");
+		Book missingPlane = new Book("Missing Plane", "contents");
+		Book deathlyHallows = new Book("Deathly Hallows", "contents");
+		library.addBook(legends);
+		library.addBook(missingPlane);
+		library.addBook(deathlyHallows);
+		library.bookList();
+		library.removeBook(deathlyHallows);
+		library.bookList();
+		library.findBook(legends);
+		library.findBook(deathlyHallows);
 	}
 }

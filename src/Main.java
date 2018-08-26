@@ -1,17 +1,21 @@
+import Shape.Cube;
+import Shape.RectangularPrism;
+import Shape.Sphere;
+
 public class Main
 {
 	public static void main(String args[]) {
-		Library library = new Library();
-		Book legends = new Book("legends", "contents");
-		Book missingPlane = new Book("Missing Plane", "contents");
-		Book deathlyHallows = new Book("Deathly Hallows", "contents");
-		library.addBook(legends);
-		library.addBook(missingPlane);
-		library.addBook(deathlyHallows);
-		library.bookList();
-		library.removeBook(deathlyHallows);
-		library.bookList();
-		library.findBook(legends);
-		library.findBook(deathlyHallows);
+		Sphere mySphere = new Sphere(3);
+        RectangularPrism myRect = new RectangularPrism(1, 2, 3);
+        Cube myCube = new Cube(3);
+
+        System.out.println(mySphere.getVolume());
+        System.out.println(mySphere.getSurfaceArea());
+
+        System.out.println(myRect.getVolume());
+        System.out.println(myRect.getSurfaceArea());
+
+        System.out.println(myCube.getVolume());
+        System.out.println(myCube.getSurfaceArea());
 	}
 }

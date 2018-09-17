@@ -5,7 +5,7 @@ import java.util.Collections;
 public class AverageCalculator {
     public static void main(String args[]){
         double mean = 0;
-        int median;
+        double median;
         int mode = 0;
         int count = 0;
 
@@ -28,8 +28,16 @@ public class AverageCalculator {
         }
         mean = mean / name.size();
 
-        median = name.size() / 2;
-        median = name.get(median); //doesn't return correct median if there are an even number of terms
+        int index = name.size() / 2;
+
+        if (name.size() % 2 == 0) {
+            // even # of terms
+            int number1 = name.get(index - 1);
+            int number2 = name.get(index);
+            median = (number1 + number2) / 2.0; // if even, take mean of middle numbers
+        } else {
+            median = name.get(index);
+        }
 
         for (int i = 0; i < name.size(); i++ ){
             int x = name.get(i);

@@ -1,6 +1,6 @@
 package Shape;
 
-public class Shape {
+public abstract class Shape {
     double volume;
     double surfaceArea;
 
@@ -21,7 +21,11 @@ public class Shape {
         return this.surfaceArea;
     }
 
-    public double getVolume(){
+    public double getVolume() {
         return this.volume;
     }
+
+    public abstract void calculateVolume();
+
+    public abstract void calculateSurfaceArea();
 }

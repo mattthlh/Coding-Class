@@ -1,17 +1,25 @@
 package Shape;
 
-public class Sphere extends Shape{
+public class Sphere extends Shape {
     double radius;
 
-    public Sphere(){
+    public Sphere() {
         this(0);
     }
 
-    public Sphere(int radius){
+    public Sphere(int radius) {
         this.radius = radius;
+    }
+
+    @Override
+    public void calculateVolume() {
         double volume = 4/3 * Math.PI * Math.pow(this.radius, 3);
+        setVolume(volume);
+    }
+
+    @Override
+    public void calculateSurfaceArea() {
         double surfaceArea = 4 * Math.PI * Math.pow(this.radius, 2);
         setSurfaceArea(surfaceArea);
-        setVolume(volume);
     }
 }

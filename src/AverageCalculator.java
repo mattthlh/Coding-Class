@@ -5,7 +5,7 @@ import java.util.Collections;
 public class AverageCalculator {
     public static void main(String args[]){
         double mean = 0;
-        double median;
+        int median;
         int mode = 0;
         int count = 0;
 
@@ -28,16 +28,8 @@ public class AverageCalculator {
         }
         mean = mean / name.size();
 
-        int index = name.size() / 2;
-
-        if (name.size() % 2 == 0) {
-            // even # of terms
-            int number1 = name.get(index - 1);
-            int number2 = name.get(index);
-            median = (number1 + number2) / 2.0; // if even, take mean of middle numbers
-        } else {
-            median = name.get(index);
-        }
+        median = name.size() / 2;
+        median = name.get(median);
 
         for (int i = 0; i < name.size(); i++ ){
             int x = name.get(i);
@@ -51,7 +43,7 @@ public class AverageCalculator {
 
                 if( tempCount > count){
                     count = tempCount;
-                    mode = x; //doesn't return all values if there are multiple modes
+                    mode = x;
                 }
             }
         }

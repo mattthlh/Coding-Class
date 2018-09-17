@@ -17,6 +17,8 @@ public class Main {
         arrayList.add(sphere);
 
         for (Shape shape : arrayList) {
+            shape.calculateSurfaceArea();
+            shape.calculateVolume();
             System.out.println(shape.getSurfaceArea());
             System.out.println(shape.getVolume());
         }

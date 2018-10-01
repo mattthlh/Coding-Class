@@ -19,19 +19,24 @@ public class UserInterface implements Runnable{
     }
 
     public void createComponents(Container container){
-        //New texts and buttons here
         container.setLayout(new BoxLayout(container, BoxLayout.PAGE_AXIS));
+
+        // satisfaction
         JLabel mainQuestion = new JLabel("Are you satisfied with our service?");
-        JLabel why = new JLabel("Why?");
+        ButtonGroup buttonGroup = new ButtonGroup();
         JRadioButton yesButton = new JRadioButton("Yes");
         JRadioButton noButton = new JRadioButton("No");
-        JButton button = new JButton("Submit");
-        JTextField textField = new JTextField();
-        ButtonGroup buttonGroup = new ButtonGroup();
-        //adds buttons to a group
         buttonGroup.add(yesButton);
         buttonGroup.add(noButton);
-        //adds texts and buttons to frame
+
+        // why
+        JLabel why = new JLabel("Why?");
+        JTextField textField = new JTextField();
+
+        // submit
+        JButton button = new JButton("Submit");
+
+        // add components
         container.add(mainQuestion);
         container.add(yesButton);
         container.add(noButton);

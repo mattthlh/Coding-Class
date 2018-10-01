@@ -6,19 +6,20 @@ import Shape.Sphere;
 import java.util.ArrayList;
 
 public class Main {
-    public static void main(String[] args) {
-        ArrayList<Shape> arrayList = new ArrayList<>();
-        Shape cube = new Cube(2);
-        Shape rectangularPrism = new RectangularPrism(3,5,8);
-        Shape sphere = new Sphere(4);
+    public static void main(String args[]){
+        int[] myArr = new int[2];
+        myArr[0] = 9;
+        myArr[1] = 2;
+        int c = calculate(myArr);
+        System.out.println(myArr[0] + " " + myArr[1] + " " + c);
 
-        arrayList.add(cube);
-        arrayList.add(rectangularPrism);
-        arrayList.add(sphere);
+    }
 
-        for (Shape shape : arrayList) {
-            System.out.println(shape.getSurfaceArea());
-            System.out.println(shape.getVolume());
-        }
+    public static int calculate(int[] arr) {
+        arr[0] = arr[0] - arr[1];
+        int c = arr[1];
+        arr[1] = arr[0] * arr[0];
+        arr[0] = arr[1] - (arr[0] + c);
+        return arr[0];
     }
 }

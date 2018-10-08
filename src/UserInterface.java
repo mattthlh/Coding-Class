@@ -35,20 +35,12 @@ public class UserInterface implements Runnable{
         JLabel label = new JLabel(" ");
 
         // add components
-        container.add(createPanel(mainQuestion, textField));
+        container.add(new HorizontalLayout(mainQuestion, textField));
         container.add(button);
         container.add(label);
 
 
         button.addActionListener(new SubmitListener(textField, label));
-    }
-
-    private JPanel createPanel(JLabel mainQuestion, JTextField textField) {
-        JPanel panel = new JPanel();
-        panel.setLayout(new BoxLayout(panel, BoxLayout.X_AXIS));
-        panel.add(mainQuestion);
-        panel.add(textField);
-        return panel;
     }
 
     public JFrame getFrame() {

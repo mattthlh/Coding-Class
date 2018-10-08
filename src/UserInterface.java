@@ -19,7 +19,7 @@ public class UserInterface implements Runnable{
     }
 
     public void createComponents(Container container){
-        GridLayout experimentLayout = new GridLayout(0,2);
+        BoxLayout experimentLayout = new BoxLayout(container, BoxLayout.PAGE_AXIS);
         container.setLayout(experimentLayout);
 
         // Question
@@ -32,23 +32,24 @@ public class UserInterface implements Runnable{
         JButton button = new JButton("Submit");
 
         //guess answers
-        JLabel label = new JLabel();
-
-        //filler box
-        JLabel filler = new JLabel();
+        JLabel label = new JLabel(" ");
 
         // add components
-        container.add(mainQuestion);
-        container.add(textField);
+        container.add(createPanel(mainQuestion, textField));
         container.add(button);
-        container.add(filler);
         container.add(label);
 
 
         button.addActionListener(new SubmitListener(textField, label));
     }
 
-
+    private JPanel createPanel(JLabel mainQuestion, JTextField textField) {
+        JPanel panel = new JPanel();
+        panel.setLayout(new BoxLayout(panel, BoxLayout.X_AXIS));
+        panel.add(mainQuestion);
+        panel.add(textField);
+        return panel;
+    }
 
     public JFrame getFrame() {
         return frame;

@@ -11,39 +11,44 @@ public class UserInterface implements Runnable{
 
     @Override
     public void run() {
-        frame = new JFrame("My application");
-        frame.setPreferredSize(new Dimension(400, 200));
+        frame = new JFrame("Guessing Game");
+        frame.setPreferredSize(new Dimension(320, 100));
         createComponents(frame.getContentPane());
         frame.pack();
         frame.setVisible(true);
     }
 
     public void createComponents(Container container){
-        container.setLayout(new BoxLayout(container, BoxLayout.PAGE_AXIS));
+        GridLayout experimentLayout = new GridLayout(0,2);
+        container.setLayout(experimentLayout);
 
-        // satisfaction
-        JLabel mainQuestion = new JLabel("Are you satisfied with our service?");
-        ButtonGroup buttonGroup = new ButtonGroup();
-        JRadioButton yesButton = new JRadioButton("Yes");
-        JRadioButton noButton = new JRadioButton("No");
-        buttonGroup.add(yesButton);
-        buttonGroup.add(noButton);
+        // Question
+        JLabel mainQuestion = new JLabel("Guess a number:");
 
-        // why
-        JLabel why = new JLabel("Why?");
+        // TextField
         JTextField textField = new JTextField();
 
         // submit
         JButton button = new JButton("Submit");
 
+        //guess answers
+        JLabel label = new JLabel();
+
+        //filler box
+        JLabel filler = new JLabel();
+
         // add components
         container.add(mainQuestion);
-        container.add(yesButton);
-        container.add(noButton);
-        container.add(why);
         container.add(textField);
         container.add(button);
+        container.add(filler);
+        container.add(label);
+
+
+        button.addActionListener(new SubmitListener(textField, label));
     }
+
+
 
     public JFrame getFrame() {
         return frame;

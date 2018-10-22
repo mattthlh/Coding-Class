@@ -42,13 +42,13 @@ public class UserInterface implements Runnable{
         JLabel label = new JLabel(" ");
 
         // add components
-        container.add(new HorizontalLayout(mainQuestion, textField));
+        container.add(new HorizontalLayout());
         container.add(button);
         container.add(label);
 
 
-        button.addActionListener(new SubmitListener(textField, label));
->>>>>>> origin/master
+        button.addActionListener(new SubmitListener(button));
+
     }
 
     public JFrame getFrame() {

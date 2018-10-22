@@ -11,7 +11,7 @@ public class DrawingInterface implements Runnable{
 
     @Override
     public void run() {
-        frame = new JFrame("Canvas");
+        frame = new JFrame("GamePanel");
         frame.setPreferredSize(new Dimension(500, 500));
         createComponents(frame.getContentPane());
         frame.pack();

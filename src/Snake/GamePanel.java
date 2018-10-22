@@ -5,12 +5,22 @@ import java.awt.*;
 
 public class GamePanel extends JPanel implements Runnable{
 
-    public void init(){
+    private Thread thread;
+    private boolean running;
 
+    public void init(){
+        running = true;
+        thread = new Thread(this);
+        thread.start();
     }
 
     public void stop(){
-
+        running = false;
+        try {
+            thread.join();
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
     }
 
     public void update(){
@@ -27,6 +37,9 @@ public class GamePanel extends JPanel implements Runnable{
 
     @Override
     public void run(){
-
+        while (running) {
+            update();
+            repaint();
+        }
     }
 }

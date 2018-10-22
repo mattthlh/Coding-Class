@@ -1,29 +1,25 @@
 import javax.swing.*;
 import java.awt.*;
 
-public class UserInterface implements Runnable{
+public class DrawingInterface implements Runnable{
 
     private JFrame frame;
 
-    public UserInterface(){
+    public DrawingInterface(){
 
     }
 
     @Override
     public void run() {
-        frame = new JFrame("Calculator");
-        frame.setPreferredSize(new Dimension(330, 400));
+        frame = new JFrame("Canvas");
+        frame.setPreferredSize(new Dimension(500, 500));
         createComponents(frame.getContentPane());
         frame.pack();
         frame.setVisible(true);
     }
 
     public void createComponents(Container container){
-        JPanel panel = new JPanel(new GridLayout(2, 1));
-        panel.add(new HorizontalLayout());
-        panel.add(new MainLayout());
-
-        container.add(panel);
+        container.add(new DrawingBoard());
     }
 
 

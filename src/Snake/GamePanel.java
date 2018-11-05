@@ -49,11 +49,9 @@ public class GamePanel extends JPanel implements Runnable{
         int y = (int) Math.floor(Math.random() * 51);
 
         g.drawString("X", x * 10, y * 10);
+    }
+    @Override
+    public void run(){
 
-
-        @Override
-        public void run(){
-
-        }
     }
 }

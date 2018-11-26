@@ -8,8 +8,11 @@ public class Main {
     public static void main(String args[]){
         JFrame frame;
 
+        GamePanel gamePanel = new GamePanel();
+
         frame = new JFrame("GamePanel");
-        frame.setPreferredSize(new Dimension(500, 500));
+        frame.add(gamePanel);
+        frame.setPreferredSize(new Dimension(500, 522));
         frame.pack();
         frame.setVisible(true);
     }

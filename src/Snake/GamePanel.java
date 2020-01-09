@@ -1,5 +1,6 @@
 package Snake;
 
+
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.KeyEvent;
@@ -53,6 +54,11 @@ public class GamePanel extends JPanel implements Runnable, KeyListener{
     }
 
     public void update(){
+
+        if(isGameOver()) {
+            resetGame();
+        }
+
         coordinates.set(0, new BodyPart(snakehead.getX(), snakehead. getY(), TILE_SIZE));
         coordinates.add(0, snakehead);
 
@@ -88,26 +94,31 @@ public class GamePanel extends JPanel implements Runnable, KeyListener{
         }
 
         if(direction.equals("left")) {
-            if(snakehead.getX() - 1 < 0) {
-                snakehead.setX(snakehead.getX() + BOARD_SIZE - 1);
+            if(snakehead.getX() == 0) {
+                //if you want wall collision, set to resetgame else set x to other side
+//                snakehead.setX(BOARD_SIZE - 1);
+                resetGame();
             } else {
                snakehead.setX(snakehead.getX() - 1);
             }
         } else if(direction.equals("up")) {
-            if(snakehead.getY() - 1 < 0) {
-                snakehead.setY(snakehead.getY() + BOARD_SIZE - 1);
+            if(snakehead.getY() == 0) {
+//                snakehead.setY(BOARD_SIZE - 1);
+                resetGame();
             } else {
                 snakehead.setY(snakehead.getY() - 1);
             }
         } else if(direction.equals("right")) {
-            if(snakehead.getX() > BOARD_SIZE) {
-                snakehead.setX(snakehead.getX() - BOARD_SIZE - 1 );
+            if(snakehead.getX() == BOARD_SIZE - 1) {
+//                snakehead.setX(0);
+                resetGame();
             } else {
                 snakehead.setX(snakehead.getX() + 1);
             }
         } else if(direction.equals("down")) {
-            if(snakehead.getY() > BOARD_SIZE) {
-                snakehead.setY(snakehead.getY() - BOARD_SIZE - 1);
+            if(snakehead.getY() == BOARD_SIZE - 1) {
+//                snakehead.setY(0);
+                resetGame();
             } else {
                 snakehead.setY(snakehead.getY() + 1);
             }
@@ -118,17 +129,46 @@ public class GamePanel extends JPanel implements Runnable, KeyListener{
         for(int i = 0; i < coordinates.size(); i++) {
             BodyPart current = coordinates.get(i);
 
-            return apple.getX() == current.getX() && apple.getY() == current.getY();
+            if(apple.getX() == current.getX() && apple.getY() == current.getY()) {
+                return true;
+            }
         }
         return false;
     }
 
+    private boolean isGameOver(){
+        for(int i = 1; i < coordinates.size(); i++) {
+            BodyPart current = coordinates.get(i);
+
+            if(snakehead.getX() == current.getX() && snakehead.getY() == current.getY()) {
+                return true;
+            }
+        }
+        return false;
+    }
+
+    private void resetGame(){
+        snakehead.setX((BOARD_SIZE - 1) / 2);
+        snakehead.setY((BOARD_SIZE - 1) / 2);
+
+        apple.setX(rand.nextInt(BOARD_SIZE - 1));
+        apple.setY(rand.nextInt(BOARD_SIZE - 1));
+
+        bodyPartCount = 0;
+
+        coordinates.clear();
+        coordinates.add(snakehead);
+
+        System.out.println(bodyPartCount);
+    }
+
     public void paint(Graphics g){
         g.setColor(Color.BLACK);
-        for(int i = 0; i < BOARD_SIZE; i++){
-            g.drawLine(i * TILE_SIZE, 0, i * TILE_SIZE, WINDOW_SIZE);
-            g.drawLine(0, i * TILE_SIZE, WINDOW_SIZE, i * TILE_SIZE);
-        }
+        g.fillRect(0, 0, WINDOW_SIZE, WINDOW_SIZE);
+//        for(int i = 0; i < BOARD_SIZE; i++){
+//            g.drawLine(i * TILE_SIZE, 0, i * TILE_SIZE, WINDOW_SIZE);
+//            g.drawLine(0, i * TILE_SIZE, WINDOW_SIZE, i * TILE_SIZE);
+//        }
 
         apple.paint(g);
         for(int i = 0; i < coordinates.size(); i++) {
@@ -140,13 +180,16 @@ public class GamePanel extends JPanel implements Runnable, KeyListener{
     public void run(){
         while (running) {
             ticks++;
-            if(ticks > 400000) {
+
+            if (ticks > 600000) {
                 update();
                 ticks = 0;
             }
             repaint();
         }
     }
+
+
 
     @Override
     public void keyPressed(KeyEvent e) {

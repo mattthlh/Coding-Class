@@ -8,7 +8,7 @@ public class BodyPart extends Entity {
     }
 
     public void paint(Graphics g){
-        g.setColor(Color.BLACK);
+        g.setColor(Color.GREEN);
         g.fillRect(getX() * getTileSize(), getY() * getTileSize(), getTileSize(), getTileSize());
     }
 }

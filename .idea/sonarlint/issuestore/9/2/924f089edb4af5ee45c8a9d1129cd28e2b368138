@@ -1,0 +1,6 @@
+
+[squid:S1197"8Move the array designator from the variable to the type.(¡şÏÖøÿÿÿÿ8ªóÈŒÜ,
+hsquid:S2095"EUse try-with-resources or close this "Scanner" in a "finally" clause.(Şô¹üÿÿÿÿ8½ÿÆÜ,
+Jsquid:S1481"'Remove this unused "sc" local variable.(Şô¹üÿÿÿÿ8½ÿÆÜ,
+Ysquid:S1854"6Remove this useless assignment to local variable "sc".(Şô¹üÿÿÿÿ8½ÿÆÜ,
+Fsquid:S1148"#Use a logger to log this exception.(µÎ¡øÿÿÿÿ8½ÿÆÜ,

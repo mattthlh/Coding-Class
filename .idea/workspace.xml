@@ -2,48 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f209c4ad-492c-43dd-96de-2c78b3b82718" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/AP/Digits.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ClassChallenges/C13.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ClassChallenges/C24.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ClassChallenges/FibonacciTerms.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ClassChallenges/ForcedFriendship.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ClassChallenges/KSwaps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ClassChallenges/MaximumTimeFormed.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ContestQuestions/BoardGames.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ContestQuestions/CCC19S2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ContestQuestions/COCI_08__3_Perket.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ContestQuestions/DMOPCDeforestation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ContestQuestions/DMOPC_APhotographyProblem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ContestQuestions/Factorial.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ContestQuestions/NextPrime.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ContestQuestions/S196.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ContestQuestions/Systests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ContestQuestions/UnevenSand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/EnglishProject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Examples/HashMapForEach.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Examples/HashMapIterator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Examples/KeyCheck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Examples/Reg.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OfficialCCC2020/J1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OfficialCCC2020/J2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OfficialCCC2020/J3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OfficialCCC2020/J4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OfficialCCC2020/J5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TEst.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ContestQuestions/MWC15MagicalSets.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ContestQuestions/MWC15RoboticsSummative.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Examples/HashmapExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Examples/MapExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Snake/Apple.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Snake/BodyPart.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Snake/Entity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Snake/GamePanel.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Snake/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Snake/apple.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/StringTokenizerExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Examples/StringTokenizerExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apple.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ContestQuestions/COCI_08__3_Perket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ContestQuestions/COCI_08__3_Perket.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/res.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/res.csv" afterDir="false" />
     </list>
-    <ignored path="$USER_HOME$/IdeaProjects/bin/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -58,100 +23,6 @@
       <FILTER>.*</FILTER>
     </SUITE>
   </component>
-  <component name="FUSProjectUsageTrigger">
-    <session id="217802991">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="61" />
-          <entry key="project.open.time.0" value="1" />
-          <entry key="project.open.time.1" value="6" />
-          <entry key="project.open.time.10" value="5" />
-          <entry key="project.open.time.11" value="4" />
-          <entry key="project.open.time.12" value="7" />
-          <entry key="project.open.time.13" value="4" />
-          <entry key="project.open.time.14" value="5" />
-          <entry key="project.open.time.15" value="5" />
-          <entry key="project.open.time.16" value="4" />
-          <entry key="project.open.time.17" value="4" />
-          <entry key="project.open.time.18" value="6" />
-          <entry key="project.open.time.19" value="2" />
-          <entry key="project.open.time.20" value="1" />
-          <entry key="project.open.time.21" value="1" />
-          <entry key="project.open.time.22" value="2" />
-          <entry key="project.open.time.23" value="1" />
-          <entry key="project.open.time.24" value="1" />
-          <entry key="project.open.time.25" value="3" />
-          <entry key="project.open.time.29" value="1" />
-          <entry key="project.open.time.32" value="1" />
-          <entry key="project.open.time.33" value="2" />
-          <entry key="project.open.time.36" value="1" />
-          <entry key="project.open.time.37" value="1" />
-          <entry key="project.open.time.45" value="1" />
-          <entry key="project.open.time.47" value="2" />
-          <entry key="project.open.time.50" value="1" />
-          <entry key="project.open.time.7" value="1" />
-          <entry key="project.open.time.8" value="2" />
-          <entry key="project.open.time.9" value="8" />
-          <entry key="project.opened" value="85" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="csv" value="34" />
-          <entry key="dummy" value="76" />
-          <entry key="in" value="18" />
-          <entry key="java" value="73349" />
-          <entry key="kt" value="7" />
-          <entry key="txt" value="79" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="JAVA" value="73349" />
-          <entry key="Kotlin" value="7" />
-          <entry key="PLAIN_TEXT" value="207" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="class" value="3" />
-          <entry key="csv" value="2" />
-          <entry key="in" value="1" />
-          <entry key="java" value="290" />
-          <entry key="kt" value="2" />
-          <entry key="mp3" value="9" />
-          <entry key="out" value="2" />
-          <entry key="png" value="4" />
-          <entry key="wav" value="2" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="CLASS" value="3" />
-          <entry key="Image" value="4" />
-          <entry key="JAVA" value="299" />
-          <entry key="Kotlin" value="2" />
-          <entry key="PLAIN_TEXT" value="7" />
-        </counts>
-      </usages-collector>
-    </session>
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/ContestQuestions/BoardGames.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="55" column="13" lean-forward="true" selection-end-line="58" selection-end-column="1" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
-  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -161,139 +32,25 @@
       </list>
     </option>
   </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>snake</find>
-      <find>51</find>
-      <find>doesco</find>
-      <find>JukeBox</find>
-      <find>k</find>
-      <find>OKButton</find>
-      <find>res</find>
-      <find>datafile</find>
-      <find>getValueAt</find>
-      <find>doescollide</find>
-      <find>reset</find>
-      <find>repaint</find>
-      <find>pane</find>
-      <find>JPanel</find>
-      <find>apple.paint</find>
-      <find>update</find>
-      <find>paint</find>
-      <find>F</find>
-    </findStrings>
-    <replaceStrings>
-      <replace>snakehead</replace>
-      <replace>SandBox</replace>
-      <replace>a</replace>
-      <replace>setAlarm</replace>
-      <replace />
-      <replace>f</replace>
-    </replaceStrings>
-    <dirStrings>
-      <dir>$PROJECT_DIR$/src/Oof</dir>
-      <dir>$PROJECT_DIR$/src/ClassChallenges</dir>
-      <dir>$PROJECT_DIR$/src/Challenges</dir>
-      <dir>$PROJECT_DIR$/src/CCC</dir>
-    </dirStrings>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/src/FrogPossibility.java" />
-        <option value="$PROJECT_DIR$/src/Examples/bfs.java" />
-        <option value="$PROJECT_DIR$/src/CCC/AnagramsJ4.java" />
-        <option value="$PROJECT_DIR$/src/ClassChallenges/SubstringCombinations.java" />
-        <option value="$PROJECT_DIR$/src/ClassChallenges/DmojistanWar.java" />
-        <option value="$PROJECT_DIR$/src/CCC/DmojistanWar.java" />
-        <option value="$PROJECT_DIR$/src/LinearRelationships.java" />
-        <option value="$PROJECT_DIR$/src/CCC/J32000SlotMachine.java" />
-        <option value="$PROJECT_DIR$/src/OfficiaCCC2020/J2.java" />
-        <option value="$PROJECT_DIR$/src/OfficiaCCC2020/J3.java" />
-        <option value="$PROJECT_DIR$/src/OfficiaCCC2020/J4.java" />
-        <option value="$PROJECT_DIR$/src/OfficiaCCC2020/J5.java" />
-        <option value="$PROJECT_DIR$/src/OfficiaCCC2020/Main.java" />
-        <option value="$PROJECT_DIR$/src/PerfectNumberRecursion.java" />
-        <option value="$PROJECT_DIR$/src/OfficialCCC2020.java" />
-        <option value="$PROJECT_DIR$/src/OfficialCCC2020/J5.java" />
-        <option value="$PROJECT_DIR$/src/OfficialCCC2020/J1.java" />
-        <option value="$PROJECT_DIR$/src/OfficialCCC2020/J2.java" />
-        <option value="$PROJECT_DIR$/src/OfficialCCC2020/J3.java" />
-        <option value="$PROJECT_DIR$/src/OfficialCCC2020/J4.java" />
-        <option value="$PROJECT_DIR$/src/Insulter/ButtonListner.java" />
-        <option value="$PROJECT_DIR$/src/Calculator/ButtonListener.java" />
-        <option value="$PROJECT_DIR$/src/Insulter/main.java" />
-        <option value="$PROJECT_DIR$/src/Insulter/Interface.java" />
-        <option value="$PROJECT_DIR$/src/Insulter/ButtonListener.java" />
-        <option value="$PROJECT_DIR$/src/Snake/BodyPart.java" />
-        <option value="$PROJECT_DIR$/src/Snake/Apple.java" />
-        <option value="$PROJECT_DIR$/src/Snake/Entity.java" />
-        <option value="$PROJECT_DIR$/src/Snake/GamePanel.java" />
-        <option value="$PROJECT_DIR$/src/Snake/Main.java" />
-        <option value="$PROJECT_DIR$/src/ClassChallenges/FibonacciTerms.java" />
-        <option value="$PROJECT_DIR$/src/CCC/J213.java" />
-        <option value="$PROJECT_DIR$/src/CCC/S196.java" />
-        <option value="$PROJECT_DIR$/src/ClassChallenges/KSwaps.java" />
-        <option value="$PROJECT_DIR$/src/ClassChallenges/C13.java" />
-        <option value="$PROJECT_DIR$/src/CCC/NextPrime.java" />
-        <option value="$PROJECT_DIR$/src/CCC/CCC19S2.java" />
-        <option value="$PROJECT_DIR$/src/TEst.java" />
-        <option value="$PROJECT_DIR$/src/Main.java" />
-        <option value="$PROJECT_DIR$/src/ClassChallenges/C24.java" />
-        <option value="$PROJECT_DIR$/src/Examples/Reg.java" />
-        <option value="$PROJECT_DIR$/src/CCC/DMOPCDeforestation.java" />
-        <option value="$PROJECT_DIR$/src/CCC/UnevenSand.java" />
-        <option value="$PROJECT_DIR$/src/CCC/Systests.java" />
-        <option value="$PROJECT_DIR$/src/CCC/Factorial.java" />
-        <option value="$PROJECT_DIR$/src/BinarySearch.java" />
-        <option value="$PROJECT_DIR$/src/CCC/DMOPC_APhotographyProblem.java" />
-        <option value="$PROJECT_DIR$/src/CCC/COCI_08__3_Perket.java" />
-        <option value="$PROJECT_DIR$/src/CCC/BoardGames.java" />
-        <option value="$PROJECT_DIR$/src/Contests/BoardGames.java" />
-        <option value="$PROJECT_DIR$/src/ContestQuestions/BoardGames.java" />
-      </list>
-    </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="23" />
     <option name="width" value="1440" />
     <option name="height" value="801" />
   </component>
+  <component name="ProjectId" id="1dZGRAdF0qpa2LAFq4nI4ISkayT" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="Coding-Class" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Coding-Class" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Coding-Class" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Coding-Class" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-    </panes>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/matthe/projects/Coding-Class/src/NewmanConway.java" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1591466370780" />
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/matthe/projects/Coding-Class/src/ContestQuestions/COCI_08__3_Perket.java" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1592096560559" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -314,34 +71,9 @@
       <recent name="$PROJECT_DIR$/src/Snake/lib" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Application.BoardGames">
+  <component name="RunManager" selected="Application.MWC15RoboticsSummative">
     <configuration name="BoardGames" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ContestQuestions.BoardGames" />
-      <module name="Coding-Class" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ContestQuestions.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DMOPCDeforestation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ContestQuestions.DMOPCDeforestation" />
       <module name="Coding-Class" />
       <extension name="coverage">
         <pattern>
@@ -366,12 +98,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Reg" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Examples.Reg" />
+    <configuration name="MWC15MagicalSets" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ContestQuestions.MWC15MagicalSets" />
       <module name="Coding-Class" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Examples.*" />
+          <option name="PATTERN" value="ContestQuestions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MWC15RoboticsSummative" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ContestQuestions.MWC15RoboticsSummative" />
+      <module name="Coding-Class" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ContestQuestions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -393,19 +138,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Reg" />
-      <item itemvalue="Application.DMOPCDeforestation" />
       <item itemvalue="Application.UnevenSand" />
       <item itemvalue="Application.Factorial" />
       <item itemvalue="Application.BoardGames" />
+      <item itemvalue="Application.MWC15MagicalSets" />
+      <item itemvalue="Application.MWC15RoboticsSummative" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MWC15RoboticsSummative" />
+        <item itemvalue="Application.MWC15MagicalSets" />
         <item itemvalue="Application.BoardGames" />
         <item itemvalue="Application.Factorial" />
         <item itemvalue="Application.UnevenSand" />
-        <item itemvalue="Application.DMOPCDeforestation" />
-        <item itemvalue="Application.Reg" />
       </list>
     </recent_temporary>
   </component>
@@ -448,7 +193,14 @@
       <option name="project" value="LOCAL" />
       <updated>1578528444102</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Commited">
+      <created>1591466525389</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1591466525389</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TodoView">
@@ -460,376 +212,54 @@
       <is-autoscroll-to-source value="true" />
     </todo-panel>
   </component>
-  <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="801" extended-state="6" />
-    <editor active="true" />
-    <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24513888" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Capture Tool" order="2" />
-      <window_info id="Image Layers" order="3" />
-      <window_info id="Designer" order="4" />
-      <window_info id="UI Designer" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3258427" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49928468" visible="true" weight="0.43835616" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39803094" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32630098" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32630098" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5007153" side_tool="true" weight="0.32780084" />
-      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32911393" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32328767" />
-      <window_info anchor="bottom" id="Thumbnails" order="11" weight="0.32911393" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.24964234" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Palette&#9;" order="6" />
-      <window_info anchor="right" id="Maven Projects" order="7" />
-      <window_info anchor="right" id="Coverage" order="8" side_tool="true" />
-    </layout>
-    <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.29041487" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Capture Tool" order="2" />
-      <window_info id="Image Layers" order="3" />
-      <window_info id="Designer" order="4" />
-      <window_info id="UI Designer" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32630098" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49928468" visible="true" weight="0.44022503" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39803094" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32630098" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32630098" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5007153" side_tool="true" weight="0.32780084" />
-      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32918397" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32489452" />
-      <window_info anchor="bottom" id="Thumbnails" order="11" weight="0.32911393" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.24964234" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Palette&#9;" order="6" />
-      <window_info anchor="right" id="Maven Projects" order="7" />
-      <window_info anchor="right" id="Coverage" order="8" side_tool="true" />
-    </layout-to-restore>
-  </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
-  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Made canvas of snake" />
     <MESSAGE value="Made the snake characters" />
     <MESSAGE value="Made snake game" />
-    <option name="LAST_COMMIT_MESSAGE" value="Made snake game" />
+    <MESSAGE value="Commited" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commited" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1440" height="324" key="GridCell.Tab.0.bottom" timestamp="1592633648052">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1440" height="324" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1592633648052" />
+    <state width="1440" height="324" key="GridCell.Tab.0.bottom/0.23.1440.801@0.23.1440.801" timestamp="1592632409439" />
+    <state width="1440" height="324" key="GridCell.Tab.0.center" timestamp="1592633648049">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1440" height="324" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1592633648049" />
+    <state width="1440" height="324" key="GridCell.Tab.0.center/0.23.1440.801@0.23.1440.801" timestamp="1592632409434" />
+    <state width="1440" height="324" key="GridCell.Tab.0.left" timestamp="1592633648048">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1440" height="324" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1592633648048" />
+    <state width="1440" height="324" key="GridCell.Tab.0.left/0.23.1440.801@0.23.1440.801" timestamp="1592632409433" />
+    <state width="1440" height="324" key="GridCell.Tab.0.right" timestamp="1592633648050">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1440" height="324" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1592633648050" />
+    <state width="1440" height="324" key="GridCell.Tab.0.right/0.23.1440.801@0.23.1440.801" timestamp="1592632409436" />
+    <state width="1440" height="310" key="GridCell.Tab.1.bottom" timestamp="1592632778229">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1440" height="310" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1592632778229" />
+    <state width="1440" height="310" key="GridCell.Tab.1.center" timestamp="1592632778228">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1440" height="310" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1592632778228" />
+    <state width="1440" height="310" key="GridCell.Tab.1.left" timestamp="1592632778228">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1440" height="310" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1592632778228" />
+    <state width="1440" height="310" key="GridCell.Tab.1.right" timestamp="1592632778229">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1440" height="310" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1592632778229" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/LinearRelationships.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="41" selection-start-line="19" selection-start-column="41" selection-end-line="19" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/OfficiaCCC2020/J3.java" />
-    <entry file="file://$PROJECT_DIR$/src/OfficiaCCC2020/J4.java" />
-    <entry file="file://$PROJECT_DIR$/src/OfficiaCCC2020/J5.java" />
-    <entry file="file://$PROJECT_DIR$/src/OfficiaCCC2020/J1.java" />
-    <entry file="file://$PROJECT_DIR$/src/OfficiaCCC2020/Main.java" />
-    <entry file="file://$PROJECT_DIR$/src/OfficialCCC2020.java" />
-    <entry file="file://$PROJECT_DIR$/src/OfficialCCC2020/J5.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="915">
-          <caret line="62" column="1" selection-start-line="62" selection-start-column="1" selection-end-line="62" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/EnglishProject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="27" selection-start-column="27" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/OfficialCCC2020/J1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="25" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/OfficialCCC2020/J2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="1" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/OfficialCCC2020/J3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="26" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/OfficialCCC2020/J4.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/PerfectNumberRecursion.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Fibonacci.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/MainRecursion.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Calculator/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="20" lean-forward="true" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Calculator/ButtonListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="9" column="34" lean-forward="true" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Calculator/MainLayout.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-27">
-          <caret line="7" column="52" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Insulter/Interface.java" />
-    <entry file="file://$PROJECT_DIR$/src/Insulter/ButtonListener.java" />
-    <entry file="file://$PROJECT_DIR$/src/Insulter/main.java" />
-    <entry file="file://$PROJECT_DIR$/src/Snake/Entity.java" />
-    <entry file="file://$PROJECT_DIR$/src/Snake/BodyPart.java" />
-    <entry file="file://$PROJECT_DIR$/src/Snake/Apple.java" />
-    <entry file="file://$PROJECT_DIR$/src/Snake/GamePanel.java" />
-    <entry file="file://$PROJECT_DIR$/src/Snake/Main.java" />
-    <entry file="file://$USER_HOME$/Desktop/Snake/Main.java" />
-    <entry file="file://$PROJECT_DIR$/src/AP/Digits.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ClassChallenges/FibonacciTerms.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="30" column="36" selection-start-line="30" selection-start-column="36" selection-end-line="30" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/CCC/J213.java" />
-    <entry file="file://$PROJECT_DIR$/src/ContestQuestions/S196.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="31" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ClassChallenges/KSwaps.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="23" column="32" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ClassChallenges/C13.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="16" column="32" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ContestQuestions/CCC19S2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="11" column="51" selection-start-line="11" selection-start-column="51" selection-end-line="11" selection-end-column="51" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/TEst.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="25" selection-start-column="25" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Examples/Reg.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1530">
-          <caret line="104" column="8" selection-start-line="104" selection-start-column="8" selection-end-line="104" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ContestQuestions/DMOPCDeforestation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="42" column="1" selection-start-line="42" selection-start-column="1" selection-end-line="42" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ContestQuestions/UnevenSand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="21" column="38" selection-start-line="21" selection-start-column="38" selection-end-line="21" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ContestQuestions/Systests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="705">
-          <caret line="50" column="13" selection-start-line="50" selection-start-column="13" selection-end-line="50" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ContestQuestions/Factorial.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ClassChallenges/C24.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="53" selection-start-line="17" selection-start-column="53" selection-end-line="17" selection-end-column="53" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ContestQuestions/NextPrime.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="7" lean-forward="true" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/BinarySearch.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="1" lean-forward="true" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/src.zip!/java/io/BufferedReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="114" column="11" selection-start-line="114" selection-start-column="11" selection-end-line="114" selection-end-column="11" />
-          <folding>
-            <element signature="e#3011#3012#0" expanded="true" />
-            <element signature="e#3058#3059#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ContestQuestions/DMOPC_APhotographyProblem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="38" lean-forward="true" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ContestQuestions/COCI_08__3_Perket.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Examples/BufferedReaderExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="14" column="48" lean-forward="true" selection-start-line="14" selection-start-column="48" selection-end-line="14" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Examples/bfs.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ContestQuestions/BoardGames.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="55" column="13" lean-forward="true" selection-end-line="58" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
   </component>
   <component name="masterDetails">
     <states>

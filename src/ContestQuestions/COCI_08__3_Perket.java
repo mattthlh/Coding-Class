@@ -26,6 +26,8 @@ public class COCI_08__3_Perket {
             bitterness[i] = Integer.parseInt(line[1]);
         }
 
+
+
         recursion(0, 0, 1, false);
         System.out.println(ans);
     }

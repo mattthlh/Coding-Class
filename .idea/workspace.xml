@@ -2,12 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f209c4ad-492c-43dd-96de-2c78b3b82718" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ContestQuestions/MWC15MagicalSets.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ContestQuestions/MWC15RoboticsSummative.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ContestQuestions/CCC13S4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ContestQuestions/CCC18J5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ContestQuestions/SSSP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ContestQuestions/dmpg17s2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ContestQuestions/vmss17wc16.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ContestQuestions/vmss7wc16c5p3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HelloWorld.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apple.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ContestQuestions/COCI_08__3_Perket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ContestQuestions/COCI_08__3_Perket.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/res.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/res.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ContestQuestions/MWC15RoboticsSummative.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ContestQuestions/MWC15RoboticsSummative.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,12 +60,6 @@
     <property name="settings.editor.selected.configurable" value="preferences.intentionPowerPack" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="OfficiaCCC2020" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/Snake" />
       <recent name="$PROJECT_DIR$/src/ClassChallenges" />
@@ -70,10 +67,16 @@
       <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$/src/Snake/lib" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="OfficiaCCC2020" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.MWC15RoboticsSummative">
-    <configuration name="BoardGames" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ContestQuestions.BoardGames" />
+  <component name="RunManager" selected="Application.CCC18J5">
+    <configuration name="CCC18J5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ContestQuestions.CCC18J5" />
       <module name="Coding-Class" />
       <extension name="coverage">
         <pattern>
@@ -85,8 +88,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Factorial" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ContestQuestions.Factorial" />
+    <configuration name="HelloWorld" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HelloWorld" />
+      <module name="Coding-Class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SSSP" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ContestQuestions.SSSP" />
       <module name="Coding-Class" />
       <extension name="coverage">
         <pattern>
@@ -98,8 +108,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MWC15MagicalSets" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ContestQuestions.MWC15MagicalSets" />
+    <configuration name="idkyet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ContestQuestions.idkyet" />
       <module name="Coding-Class" />
       <extension name="coverage">
         <pattern>
@@ -111,21 +121,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MWC15RoboticsSummative" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ContestQuestions.MWC15RoboticsSummative" />
-      <module name="Coding-Class" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ContestQuestions.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UnevenSand" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ContestQuestions.UnevenSand" />
+    <configuration name="vmss7wc16c5p3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ContestQuestions.vmss7wc16c5p3" />
       <module name="Coding-Class" />
       <extension name="coverage">
         <pattern>
@@ -138,19 +135,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.UnevenSand" />
-      <item itemvalue="Application.Factorial" />
-      <item itemvalue="Application.BoardGames" />
-      <item itemvalue="Application.MWC15MagicalSets" />
-      <item itemvalue="Application.MWC15RoboticsSummative" />
+      <item itemvalue="Application.SSSP" />
+      <item itemvalue="Application.HelloWorld" />
+      <item itemvalue="Application.idkyet" />
+      <item itemvalue="Application.vmss7wc16c5p3" />
+      <item itemvalue="Application.CCC18J5" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MWC15RoboticsSummative" />
-        <item itemvalue="Application.MWC15MagicalSets" />
-        <item itemvalue="Application.BoardGames" />
-        <item itemvalue="Application.Factorial" />
-        <item itemvalue="Application.UnevenSand" />
+        <item itemvalue="Application.CCC18J5" />
+        <item itemvalue="Application.vmss7wc16c5p3" />
+        <item itemvalue="Application.idkyet" />
+        <item itemvalue="Application.HelloWorld" />
+        <item itemvalue="Application.SSSP" />
       </list>
     </recent_temporary>
   </component>
@@ -200,7 +197,14 @@
       <option name="project" value="LOCAL" />
       <updated>1591466525389</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Matt's Solution for RoboticsSummative">
+      <created>1592634403449</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1592634403449</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TodoView">
@@ -217,45 +221,70 @@
     <MESSAGE value="Made the snake characters" />
     <MESSAGE value="Made snake game" />
     <MESSAGE value="Commited" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commited" />
+    <MESSAGE value="Matt's Solution for RoboticsSummative" />
+    <option name="LAST_COMMIT_MESSAGE" value="Matt's Solution for RoboticsSummative" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1440" height="324" key="GridCell.Tab.0.bottom" timestamp="1592633648052">
+    <state x="363" y="44" key="CommitChangelistDialog2" timestamp="1592634402855">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1440" height="324" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1592633648052" />
-    <state width="1440" height="324" key="GridCell.Tab.0.bottom/0.23.1440.801@0.23.1440.801" timestamp="1592632409439" />
-    <state width="1440" height="324" key="GridCell.Tab.0.center" timestamp="1592633648049">
+    <state x="363" y="44" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1592634402855" />
+    <state width="1398" height="301" key="GridCell.Tab.0.bottom" timestamp="1596476023614">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1440" height="324" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1592633648049" />
-    <state width="1440" height="324" key="GridCell.Tab.0.center/0.23.1440.801@0.23.1440.801" timestamp="1592632409434" />
-    <state width="1440" height="324" key="GridCell.Tab.0.left" timestamp="1592633648048">
+    <state width="1398" height="315" key="GridCell.Tab.0.bottom/0.-1057.1920.1057/0.23.1440.803@0.23.1440.803" timestamp="1595702052641" />
+    <state width="1398" height="315" key="GridCell.Tab.0.bottom/0.-1080.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1595704755507" />
+    <state width="1398" height="301" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1596476023614" />
+    <state width="1440" height="324" key="GridCell.Tab.0.bottom/0.23.1440.801@0.23.1440.801" timestamp="1592677671022" />
+    <state width="1398" height="315" key="GridCell.Tab.0.bottom/0.23.1440.803@0.23.1440.803" timestamp="1596475517173" />
+    <state width="1398" height="301" key="GridCell.Tab.0.center" timestamp="1596476023609">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1440" height="324" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1592633648048" />
-    <state width="1440" height="324" key="GridCell.Tab.0.left/0.23.1440.801@0.23.1440.801" timestamp="1592632409433" />
-    <state width="1440" height="324" key="GridCell.Tab.0.right" timestamp="1592633648050">
+    <state width="1398" height="315" key="GridCell.Tab.0.center/0.-1057.1920.1057/0.23.1440.803@0.23.1440.803" timestamp="1595702052639" />
+    <state width="1398" height="315" key="GridCell.Tab.0.center/0.-1080.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1595704755505" />
+    <state width="1398" height="301" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1596476023609" />
+    <state width="1440" height="324" key="GridCell.Tab.0.center/0.23.1440.801@0.23.1440.801" timestamp="1592677671020" />
+    <state width="1398" height="315" key="GridCell.Tab.0.center/0.23.1440.803@0.23.1440.803" timestamp="1596475517172" />
+    <state width="1398" height="301" key="GridCell.Tab.0.left" timestamp="1596476023607">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1440" height="324" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1592633648050" />
-    <state width="1440" height="324" key="GridCell.Tab.0.right/0.23.1440.801@0.23.1440.801" timestamp="1592632409436" />
-    <state width="1440" height="310" key="GridCell.Tab.1.bottom" timestamp="1592632778229">
+    <state width="1398" height="315" key="GridCell.Tab.0.left/0.-1057.1920.1057/0.23.1440.803@0.23.1440.803" timestamp="1595702052637" />
+    <state width="1398" height="315" key="GridCell.Tab.0.left/0.-1080.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1595704755505" />
+    <state width="1398" height="301" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1596476023607" />
+    <state width="1440" height="324" key="GridCell.Tab.0.left/0.23.1440.801@0.23.1440.801" timestamp="1592677671019" />
+    <state width="1398" height="315" key="GridCell.Tab.0.left/0.23.1440.803@0.23.1440.803" timestamp="1596475517171" />
+    <state width="1398" height="301" key="GridCell.Tab.0.right" timestamp="1596476023612">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1440" height="310" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1592632778229" />
-    <state width="1440" height="310" key="GridCell.Tab.1.center" timestamp="1592632778228">
+    <state width="1398" height="315" key="GridCell.Tab.0.right/0.-1057.1920.1057/0.23.1440.803@0.23.1440.803" timestamp="1595702052640" />
+    <state width="1398" height="315" key="GridCell.Tab.0.right/0.-1080.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1595704755506" />
+    <state width="1398" height="301" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1596476023612" />
+    <state width="1440" height="324" key="GridCell.Tab.0.right/0.23.1440.801@0.23.1440.801" timestamp="1592677671021" />
+    <state width="1398" height="315" key="GridCell.Tab.0.right/0.23.1440.803@0.23.1440.803" timestamp="1596475517173" />
+    <state width="1398" height="301" key="GridCell.Tab.1.bottom" timestamp="1596476023629">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1440" height="310" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1592632778228" />
-    <state width="1440" height="310" key="GridCell.Tab.1.left" timestamp="1592632778228">
+    <state width="1398" height="301" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1596476023629" />
+    <state width="1398" height="301" key="GridCell.Tab.1.center" timestamp="1596476023619">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1440" height="310" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1592632778228" />
-    <state width="1440" height="310" key="GridCell.Tab.1.right" timestamp="1592632778229">
+    <state width="1398" height="301" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1596476023619" />
+    <state width="1398" height="301" key="GridCell.Tab.1.left" timestamp="1596476023618">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1440" height="310" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1592632778229" />
+    <state width="1398" height="301" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1596476023618" />
+    <state width="1398" height="301" key="GridCell.Tab.1.right" timestamp="1596476023628">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="301" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1596476023628" />
+    <state x="229" y="89" key="SettingsEditor" timestamp="1592675539002">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="229" y="89" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1592675539002" />
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1593277366868">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.-1080.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1593277366868" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />

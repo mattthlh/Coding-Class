@@ -1,10 +1,9 @@
 package ContestQuestions;
 
-import java.io.*;
 import java.util.*;
 
 public class SSSP{
-    public static void main(String[] args) throws IOException{
+    public static void main(String[] args){
         Scanner in = new Scanner(System.in);
 
         int N = in.nextInt(), M = in.nextInt();

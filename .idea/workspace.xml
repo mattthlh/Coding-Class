@@ -1,9 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="f209c4ad-492c-43dd-96de-2c78b3b82718" name="Default Changelist" comment="">
+    <list default="true" id="f209c4ad-492c-43dd-96de-2c78b3b82718" name="Default Changelist" comment="Created solution for the CCC 2013 S4 questions">
+      <change afterPath="$PROJECT_DIR$/src/Challenges/UglyNumbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ContestQuestions/ACoinProblem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ContestQuestions/CCC00S4Golf.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ContestQuestions/CCC04J4SimpleEncryption.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ContestQuestions/CCC10J5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ContestQuestions/CCC13J2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ContestQuestions/CCC14S3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ContestQuestions/CCC2020J3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ContestQuestions/CCC2020J4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ContestQuestions/CCC2020J5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ContestQuestions/CCC2020J5_Bill.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ContestQuestions/CCC2020J5_Bill_x2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ContestQuestions/CCC96S1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ContestQuestions/CCO98P1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ContestQuestions/DPAFrog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ContestQuestions/DPBFrog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ContestQuestions/DPCVacation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ContestQuestions/MissingNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ContestQuestions/RTE16S3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ContestQuestions/Repetitions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ContestQuestions/VMSS15p4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ContestQuestions/WeirdAlgorithm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ContestQuestions/year2015P4.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ContestQuestions/CCC13S4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ContestQuestions/CCC13S4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ContestQuestions/SSSP.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ContestQuestions/SSSP.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,18 +65,13 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Kotlin File" />
-        <option value="Class" />
         <option value="Contest Template" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="y" value="23" />
-    <option name="width" value="1440" />
-    <option name="height" value="801" />
   </component>
   <component name="ProjectId" id="1dZGRAdF0qpa2LAFq4nI4ISkayT" />
   <component name="ProjectLevelVcsManager">
@@ -48,9 +85,9 @@
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/matthe/projects/Coding-Class/src/ContestQuestions/COCI_08__3_Perket.java" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1592096560559" />
     <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="preferences.intentionPowerPack" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.postfix.templates" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -61,15 +98,16 @@
       <recent name="$PROJECT_DIR$/src/Snake/lib" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="ContestQuestions" />
       <recent name="OfficiaCCC2020" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CCC13S4">
-    <configuration name="CCC13S4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ContestQuestions.CCC13S4" />
+  <component name="RunManager" selected="Application.CCC10J5">
+    <configuration name="CCC10J5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ContestQuestions.CCC10J5" />
       <module name="Coding-Class" />
       <extension name="coverage">
         <pattern>
@@ -81,8 +119,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CCC18J5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ContestQuestions.CCC18J5" />
+    <configuration name="CCC14S3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ContestQuestions.CCC14S3" />
       <module name="Coding-Class" />
       <extension name="coverage">
         <pattern>
@@ -94,15 +132,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HelloWorld" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="HelloWorld" />
-      <module name="Coding-Class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="idkyet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ContestQuestions.idkyet" />
+    <configuration name="CCC2020J5_Bill" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ContestQuestions.CCC2020J5_Bill" />
       <module name="Coding-Class" />
       <extension name="coverage">
         <pattern>
@@ -114,8 +145,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="vmss7wc16c5p3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ContestQuestions.vmss7wc16c5p3" />
+    <configuration name="RTE16S3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ContestQuestions.RTE16S3" />
+      <module name="Coding-Class" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ContestQuestions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VMSS15p4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ContestQuestions.VMSS15p4" />
       <module name="Coding-Class" />
       <extension name="coverage">
         <pattern>
@@ -128,19 +172,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.HelloWorld" />
-      <item itemvalue="Application.idkyet" />
-      <item itemvalue="Application.vmss7wc16c5p3" />
-      <item itemvalue="Application.CCC18J5" />
-      <item itemvalue="Application.CCC13S4" />
+      <item itemvalue="Application.CCC14S3" />
+      <item itemvalue="Application.CCC2020J5_Bill" />
+      <item itemvalue="Application.VMSS15p4" />
+      <item itemvalue="Application.RTE16S3" />
+      <item itemvalue="Application.CCC10J5" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.CCC13S4" />
-        <item itemvalue="Application.CCC18J5" />
-        <item itemvalue="Application.vmss7wc16c5p3" />
-        <item itemvalue="Application.idkyet" />
-        <item itemvalue="Application.HelloWorld" />
+        <item itemvalue="Application.CCC10J5" />
+        <item itemvalue="Application.RTE16S3" />
+        <item itemvalue="Application.VMSS15p4" />
+        <item itemvalue="Application.CCC14S3" />
+        <item itemvalue="Application.CCC2020J5_Bill" />
       </list>
     </recent_temporary>
   </component>
@@ -211,17 +255,27 @@
       <option name="project" value="LOCAL" />
       <updated>1596476546604</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Created solution for the CCC 2013 S4 questions">
+      <created>1596479867005</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1596479867005</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
-  <component name="TodoView">
-    <todo-panel id="selected-file">
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-    <todo-panel id="all">
-      <are-packages-shown value="true" />
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Made canvas of snake" />
@@ -230,151 +284,122 @@
     <MESSAGE value="Commited" />
     <MESSAGE value="Matt's Solution for RoboticsSummative" />
     <MESSAGE value="Update" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update" />
+    <MESSAGE value="Created solution for the CCC 2013 S4 questions" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created solution for the CCC 2013 S4 questions" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="363" y="44" key="CommitChangelistDialog2" timestamp="1596476546290">
+    <state x="396" y="70" key="#CCC2020J5_Bill" timestamp="1597001290757">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="363" y="44" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1596476546290" />
-    <state width="1398" height="315" key="GridCell.Tab.0.bottom" timestamp="1596477905283">
+    <state x="396" y="70" key="#CCC2020J5_Bill/0.0.1440.900@0.0.1440.900" timestamp="1597001290757" />
+    <state x="184" y="112" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1597001278122">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="184" y="112" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1597001278122" />
+    <state x="706" y="203" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1596824679623">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="706" y="203" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1440.900@0.0.1440.900" timestamp="1596824679623" />
+    <state x="331" y="132" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog" timestamp="1596825271711">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="331" y="132" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog/0.0.1440.900@0.0.1440.900" timestamp="1596825271711" />
+    <state x="433" y="246" key="#com.intellij.refactoring.move.moveMembers.MoveMembersDialog" timestamp="1598483958604">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="433" y="246" key="#com.intellij.refactoring.move.moveMembers.MoveMembersDialog/1440.-572.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1598483958604" />
+    <state x="421" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1598379895683">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="421" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/953.-1080.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1598379895683" />
+    <state x="363" y="44" key="CommitChangelistDialog2" timestamp="1597003176158">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="363" y="44" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1597003176158" />
+    <state width="1398" height="315" key="GridCell.Tab.0.bottom" timestamp="1598403150935">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1398" height="315" key="GridCell.Tab.0.bottom/0.-1057.1920.1057/0.23.1440.803@0.23.1440.803" timestamp="1595702052641" />
     <state width="1398" height="315" key="GridCell.Tab.0.bottom/0.-1080.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1595704755507" />
-    <state width="1398" height="315" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1596477905283" />
+    <state width="1398" height="315" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1597259719207" />
     <state width="1440" height="324" key="GridCell.Tab.0.bottom/0.23.1440.801@0.23.1440.801" timestamp="1592677671022" />
-    <state width="1398" height="315" key="GridCell.Tab.0.bottom/0.23.1440.803@0.23.1440.803" timestamp="1596477420921" />
-    <state width="1398" height="315" key="GridCell.Tab.0.center" timestamp="1596477905281">
+    <state width="1398" height="315" key="GridCell.Tab.0.bottom/0.23.1440.803@0.23.1440.803" timestamp="1597259349343" />
+    <state width="1398" height="315" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1596653804365" />
+    <state width="1398" height="315" key="GridCell.Tab.0.bottom/1440.-549.1920.1057/0.0.1440.900@0.0.1440.900" timestamp="1598403150935" />
+    <state width="1398" height="315" key="GridCell.Tab.0.bottom/953.-1057.1920.1057/0.0.1440.900@0.0.1440.900" timestamp="1597869430338" />
+    <state width="1398" height="315" key="GridCell.Tab.0.bottom/953.-1080.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1598382004042" />
+    <state width="1398" height="315" key="GridCell.Tab.0.center" timestamp="1598403150933">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1398" height="315" key="GridCell.Tab.0.center/0.-1057.1920.1057/0.23.1440.803@0.23.1440.803" timestamp="1595702052639" />
     <state width="1398" height="315" key="GridCell.Tab.0.center/0.-1080.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1595704755505" />
-    <state width="1398" height="315" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1596477905281" />
+    <state width="1398" height="315" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1597259719203" />
     <state width="1440" height="324" key="GridCell.Tab.0.center/0.23.1440.801@0.23.1440.801" timestamp="1592677671020" />
-    <state width="1398" height="315" key="GridCell.Tab.0.center/0.23.1440.803@0.23.1440.803" timestamp="1596477420918" />
-    <state width="1398" height="315" key="GridCell.Tab.0.left" timestamp="1596477905280">
+    <state width="1398" height="315" key="GridCell.Tab.0.center/0.23.1440.803@0.23.1440.803" timestamp="1597259349342" />
+    <state width="1398" height="315" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1596653804363" />
+    <state width="1398" height="315" key="GridCell.Tab.0.center/1440.-549.1920.1057/0.0.1440.900@0.0.1440.900" timestamp="1598403150933" />
+    <state width="1398" height="315" key="GridCell.Tab.0.center/953.-1057.1920.1057/0.0.1440.900@0.0.1440.900" timestamp="1597869430335" />
+    <state width="1398" height="315" key="GridCell.Tab.0.center/953.-1080.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1598382004039" />
+    <state width="1398" height="315" key="GridCell.Tab.0.left" timestamp="1598403150932">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1398" height="315" key="GridCell.Tab.0.left/0.-1057.1920.1057/0.23.1440.803@0.23.1440.803" timestamp="1595702052637" />
     <state width="1398" height="315" key="GridCell.Tab.0.left/0.-1080.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1595704755505" />
-    <state width="1398" height="315" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1596477905280" />
+    <state width="1398" height="315" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1597259719202" />
     <state width="1440" height="324" key="GridCell.Tab.0.left/0.23.1440.801@0.23.1440.801" timestamp="1592677671019" />
-    <state width="1398" height="315" key="GridCell.Tab.0.left/0.23.1440.803@0.23.1440.803" timestamp="1596477420916" />
-    <state width="1398" height="315" key="GridCell.Tab.0.right" timestamp="1596477905282">
+    <state width="1398" height="315" key="GridCell.Tab.0.left/0.23.1440.803@0.23.1440.803" timestamp="1597259349340" />
+    <state width="1398" height="315" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1596653804361" />
+    <state width="1398" height="315" key="GridCell.Tab.0.left/1440.-549.1920.1057/0.0.1440.900@0.0.1440.900" timestamp="1598403150932" />
+    <state width="1398" height="315" key="GridCell.Tab.0.left/953.-1057.1920.1057/0.0.1440.900@0.0.1440.900" timestamp="1597869430334" />
+    <state width="1398" height="315" key="GridCell.Tab.0.left/953.-1080.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1598382004038" />
+    <state width="1398" height="315" key="GridCell.Tab.0.right" timestamp="1598403150934">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1398" height="315" key="GridCell.Tab.0.right/0.-1057.1920.1057/0.23.1440.803@0.23.1440.803" timestamp="1595702052640" />
     <state width="1398" height="315" key="GridCell.Tab.0.right/0.-1080.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1595704755506" />
-    <state width="1398" height="315" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1596477905282" />
+    <state width="1398" height="315" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1597259719206" />
     <state width="1440" height="324" key="GridCell.Tab.0.right/0.23.1440.801@0.23.1440.801" timestamp="1592677671021" />
-    <state width="1398" height="315" key="GridCell.Tab.0.right/0.23.1440.803@0.23.1440.803" timestamp="1596477420919" />
-    <state width="1398" height="301" key="GridCell.Tab.1.bottom" timestamp="1596476023629">
+    <state width="1398" height="315" key="GridCell.Tab.0.right/0.23.1440.803@0.23.1440.803" timestamp="1597259349343" />
+    <state width="1398" height="315" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1596653804364" />
+    <state width="1398" height="315" key="GridCell.Tab.0.right/1440.-549.1920.1057/0.0.1440.900@0.0.1440.900" timestamp="1598403150934" />
+    <state width="1398" height="315" key="GridCell.Tab.0.right/953.-1057.1920.1057/0.0.1440.900@0.0.1440.900" timestamp="1597869430336" />
+    <state width="1398" height="315" key="GridCell.Tab.0.right/953.-1080.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1598382004041" />
+    <state width="1398" height="301" key="GridCell.Tab.1.bottom" timestamp="1597022506679">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="301" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1596476023629" />
-    <state width="1398" height="301" key="GridCell.Tab.1.center" timestamp="1596476023619">
+    <state width="1398" height="301" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1597022506679" />
+    <state width="1398" height="301" key="GridCell.Tab.1.center" timestamp="1597022506676">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="301" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1596476023619" />
-    <state width="1398" height="301" key="GridCell.Tab.1.left" timestamp="1596476023618">
+    <state width="1398" height="301" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1597022506676" />
+    <state width="1398" height="301" key="GridCell.Tab.1.left" timestamp="1597022506675">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="301" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1596476023618" />
-    <state width="1398" height="301" key="GridCell.Tab.1.right" timestamp="1596476023628">
+    <state width="1398" height="301" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1597022506675" />
+    <state width="1398" height="301" key="GridCell.Tab.1.right" timestamp="1597022506677">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="301" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1596476023628" />
-    <state x="229" y="89" key="SettingsEditor" timestamp="1592675539002">
+    <state width="1398" height="301" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1597022506677" />
+    <state x="229" y="63" key="SettingsEditor" timestamp="1596825427475">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="229" y="89" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1592675539002" />
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1596476504605">
+    <state x="229" y="63" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1596825427475" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1596479911309">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1596476504605" />
-    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1593277366868">
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1596479911309" />
+    <state x="427" y="205" width="586" height="490" key="find.popup" timestamp="1596740433457">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="427" y="205" width="586" height="490" key="find.popup/0.0.1440.900@0.0.1440.900" timestamp="1596740433457" />
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1597002487529">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.-1080.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1593277366868" />
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1597002487529" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <last-edited>No facets are configured</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <last-edited>Coding-Class</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <last-edited>KotlinJavaRuntime</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
   </component>
 </project>

@@ -1,4 +1,4 @@
-package WorkForce;
+package Codeforce;
 
 import java.io.BufferedWriter;
 import java.io.File;

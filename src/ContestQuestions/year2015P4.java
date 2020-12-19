@@ -3,28 +3,42 @@ package ContestQuestions;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.Queue;
 
 public class year2015P4 {
-    static class Pair {
+    static class State {
         int a;
         int b;
 
-        public Pair(int a, int b) {
+        public State(int a, int b) {
             this.a = a;
             this.b = b;
         }
     }
+
+    static class Trace {
+        int previousA;
+        int previousB;
+        int operation;
+
+        public Trace(int a, int b, int o) {
+            previousA = a;
+            previousB = b;
+            operation = o;
+        }
+    }
+
+
     static int a;
     static int b;
     static int m;
+    static Trace[][] trace = new Trace[1001][1001];
     static String[] codes = {
             "chug A", "chug B",
             "fill A", "fill B",
             "pour A B", "pour B A"};
-    static ArrayList<String> instructions = new ArrayList<>();
+
     public static void main(String[] args) throws IOException {
         BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
 
@@ -33,43 +47,84 @@ public class year2015P4 {
         b = Integer.parseInt(tokens[1]);
         m = Integer.parseInt(tokens[2]);
 
-        Queue<Pair> queue = new LinkedList<>();
-        queue.add(new Pair(0, 0));
-        int currentA = 0;
-        int currentB = 0;
-        int count = 0;
+        boolean[][] vist = new boolean[1001][1001];
+        Queue<State> queue = new LinkedList<>();
+        queue.offer(new State(0, 0));
+        vist[0][0] = true;
 
-        while(!queue.isEmpty()) {
+        int newA;
+        int newB;
+
+        while (!queue.isEmpty()) {
+            State state = queue.poll();
+            int currentA = state.a;
+            int currentB = state.b;
+
             if (currentA == m || currentB == m) {
-                for (String instruction : instructions) {
-                    System.out.println(instruction);
-                }
-                System.exit(0);
+                traceAnswer(currentA, currentB);
+                return;
             }
-            int newA = currentA;
-            int newB = currentB;
 
-            // Fill A
-            newA = a;
-            queue.add(new Pair(newA , newB));
+            if (!vist[0][currentB]) {
+                queue.offer(new State(0, currentB));
+                vist[0][currentB] = true;
+                trace[0][currentB] = new Trace(currentA, currentB, 0);
+            }
 
-            // Fill B
-            newB = b;
-            queue.add(new Pair(currentA , b));
+            if (!vist[currentA][0]) {
+                queue.offer(new State(currentA, 0));
+                vist[currentA][0] = true;
+                trace[currentA][0] = new Trace(currentA, currentB, 1);
+            }
 
-            // Pour A B
-            if(b - currentB >= currentA) {
-                currentB += currentA;
-                currentA = 0;
+            if (!vist[a][currentB]) {
+                queue.offer(new State(a, currentB));
+                vist[a][currentB] = true;
+                trace[a][currentB] = new Trace(currentA, currentB, 2);
+            }
+
+            if (!vist[currentA][b]) {
+                queue.offer(new State(currentA, b));
+                vist[currentA][b] = true;
+                trace[currentA][b] = new Trace(currentA, currentB, 3);
+            }
+
+            if (currentA + currentB > b) {
+                newA = currentA + currentB - b;
+                newB = b;
             } else {
-                int temp = b - currentB;
-                currentB = b;
-                currentA -= temp;
+                newA = 0;
+                newB = currentA + currentB;
             }
-            queue.add(new Pair(a , currentB));
 
-            // Fill B
-            queue.add(new Pair(currentA , b));
+            if (!vist[newA][newB]) {
+                queue.offer(new State(newA, newB));
+                vist[newA][newB] = true;
+                trace[newA][newB] = new Trace(currentA, currentB, 4);
+            }
+
+            if (currentA + currentB > a) {
+                newA = a;
+                newB = currentA + currentB - a;
+            } else {
+                newA = currentA + currentB;
+                newB = 0;
+
+            }
+            if (!vist[newA][newB]) {
+                queue.offer(new State(newA, newB));
+                vist[newA][newB] = true;
+                trace[newA][newB] = new Trace(currentA, currentB, 5);
+            }
         }
+
+        System.out.println("Not possible");
+    }
+
+    public static void traceAnswer(int currentA, int currentB) {
+        if(currentA == 0 && currentB == 0) return;
+        Trace t = trace[currentA][currentB];
+        traceAnswer(t.previousA, t.previousB);
+        System.out.println(codes[t.operation]);
     }
 }

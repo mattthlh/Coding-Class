@@ -13,28 +13,26 @@ public class Repetitions {
 
         String line = in.readLine();
 
-        long total = 1;
-        long count = 1;
-        char mostChar = line.charAt(0);
+        int total = 0;
+        int current = 1;
+        char symbol;
 
-        for(int i = 0; i < line.length() - 1; i++) {
-            char char1 = line.charAt(i);
-            char char2 = line.charAt(i + 1);
-            if(char1 == char2) {
-                count++;
+        if(line.length() == 1) {
+            System.out.println(1);
+            return;
+        }
+
+        for (int i = 1; i < line.length(); i++) {
+            symbol = line.charAt(i - 1);
+            if(line.charAt(i) == symbol) {
+                current++;
             } else {
-                if(total < count) {
-                    total = count;
-                    count = 1;
-                    mostChar = line.charAt(i);
-                }
+                total = Math.max(total, current);
+                current = 1;
             }
         }
-        if(total < count) {
-            total = count;
-        }
+        total = Math.max(total, current);
 
         System.out.println(total);
-        System.out.println(mostChar);
     }
 }
